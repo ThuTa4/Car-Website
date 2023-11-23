@@ -1,0 +1,120 @@
+body {
+  height: 3000px;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.naver {
+  max-height: 60px;
+  max-width: 1368px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 30px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logoParent {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-self: center;
+  user-select: none;
+}
+
+.carLogo {
+  width: 200px;
+  height: auto;
+}
+
+.logoText {
+  color: rgb(219, 84, 0);
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+
+.naverText {
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  text-decoration: solid;
+  color: #020202;
+  transition: all 0.38s ease-in-out;
+  border-bottom: 3px solid transparent;
+  padding: 2px 10px;
+}
+
+.naverText:hover,
+.naverText1 {
+  color: rgb(0, 193, 219);
+  border-bottom: 3px solid rgb(0, 193, 219);
+}
+
+.ulTag {
+  width: 500px;
+  display: flex;
+  user-select: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.searchInput {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 20px #ffffff;
+  border: 1px solid rgb(0, 193, 219);
+  border-radius: 10px;
+  clip-path: circle(0% at 100% 0%);
+}
+
+.active {
+  clip-path: circle(144% at 100% 0%);
+  transition: 0.5s;
+}
+
+.searchInput2 {
+  max-width: 1368px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.searchInputChild {
+  width: 100%;
+  padding: 25px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+}
