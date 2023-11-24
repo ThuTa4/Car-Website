@@ -1,0 +1,32 @@
+.home {
+  max-width: 1300px;
+  margin: auto;
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  background: url(../images/67-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+.homeH1Tag1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.homeH1Tag {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+.homeA1Tag {
+  font-family: "Roboto", sans-serif;
+}
+
+.homeA1Tag1 {
+  width: 600px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 193, 219);
+  height: 200px;
+}
