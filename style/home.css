@@ -5,10 +5,18 @@
   min-height: 640px;
   display: flex;
   align-items: center;
-  background: url(../images/67-removebg-preview.png);
+  user-select: none;
+}
+
+.homeImage {
+  min-width: 800px;
+  min-height: 400px;
+  background: url(../images/f2dadf695461017662.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
+  position: absolute;
+  right: 0;
 }
 
 .homeH1Tag1 {
@@ -25,8 +33,14 @@
 }
 
 .homeA1Tag1 {
-  width: 600px;
+  width: 160px;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(0, 193, 219);
-  height: 200px;
+  background-color: #ea1b2a;
+  height: 50px;
+  color: #fff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
