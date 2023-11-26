@@ -1,0 +1,80 @@
+.carsContainer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carsContainerChild1 {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 193, 219);
+}
+
+.carsContainerChild2 {
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.carsContainerChild3 {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #7b7d7e;
+  font-family: "Roboto", sans-serif;
+}
+
+.carsBoxContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+  margin-top: 30px;
+}
+
+.boxContainer {
+  position: relative;
+  flex: 1 1 1;
+  height: 250px;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.box {
+  position: relative;
+  flex: 1 1 1;
+  height: 250px;
+  user-select: none;
+  overflow: hidden;
+}
+
+.box:hover {
+  .carsImage {
+    transition: 0.38s;
+    transform: scale(1.08);
+  }
+  .carsText {
+    background-color: rgb(0, 193, 219);
+    color: #ffffff;
+  }
+}
+
+.carsImage {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carsText {
+  position: absolute;
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  bottom: 3px;
+  left: 15px;
+  background-color: #ffffff;
+  padding: 9px;
+}

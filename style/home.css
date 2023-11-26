@@ -11,7 +11,7 @@
 .homeImage {
   min-width: 800px;
   min-height: 400px;
-  background: url(../images/f2dadf695461017662.png);
+  background: url(../images/bugatti-chiron-car-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
@@ -37,6 +37,7 @@
 }
 
 .homeA1Tag {
+  color: #7b7d7e;
   font-family: "Roboto", sans-serif;
   width: 300px;
 }
@@ -52,4 +53,10 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all 0.38s ease-in-out;
+  margin-top: 15px;
+}
+
+.homeA1Tag1:hover {
+  background-color: rgb(0, 214, 242);
 }
