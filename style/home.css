@@ -10,13 +10,15 @@
 
 .homeImage {
   min-width: 800px;
-  min-height: 400px;
+  min-height: 420px;
   background: url(../images/bugatti-chiron-car-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center left;
-  position: absolute;
-  right: 0;
+  background-position: center right;
+}
+
+.bugattiATag {
+  text-decoration: none;
 }
 
 .homeH1Tag1 {

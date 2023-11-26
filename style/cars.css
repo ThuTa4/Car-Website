@@ -31,6 +31,10 @@
   margin-top: 30px;
 }
 
+.cars {
+  margin-top: 100px;
+}
+
 .boxContainer {
   position: relative;
   flex: 1 1 1;
@@ -77,4 +81,5 @@
   left: 15px;
   background-color: #ffffff;
   padding: 9px;
+  font-weight: 200;
 }
