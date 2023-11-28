@@ -127,12 +127,3 @@ html {
     margin-right: 30px;
   }
 }
-
-@media (max-width: 1450px) {
-  .blogBox {
-    width: 300px;
-    user-select: none;
-    padding: 20px;
-    margin: 20px;
-  }
-}
