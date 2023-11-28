@@ -1,5 +1,5 @@
 body {
-  height: 3000px;
+  height: 3100px;
   margin: 0;
 }
 
@@ -119,4 +119,20 @@ html {
   outline: none;
   background: transparent;
   font-size: 15px;
+}
+
+@media (max-width: 1080px) {
+  .naver {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .blogBox {
+    width: 300px;
+    user-select: none;
+    padding: 20px;
+    margin: 20px;
+  }
 }

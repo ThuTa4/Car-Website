@@ -17,6 +17,10 @@
   background-position: center right;
 }
 
+.homeLeftContainer {
+  margin-right: 100px;
+}
+
 .bugattiATag {
   text-decoration: none;
 }

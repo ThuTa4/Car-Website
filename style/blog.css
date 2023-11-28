@@ -1,0 +1,129 @@
+.blogContainer {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.blogBox {
+  font-family: "Roboto", sans-serif;
+}
+
+.blogImage {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.blogBox {
+  width: 400px;
+  user-select: none;
+  padding: 20px;
+  margin: 20px;
+}
+
+.blogBox:hover {
+  background-color: #f6f6f6;
+}
+
+.blogBtn {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 17px;
+}
+
+.blogBtn:hover {
+  color: rgb(0, 193, 219);
+  column-gap: 0.6rem;
+  transition: 0.28s;
+}
+
+.blogBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.date {
+  color: rgb(0, 193, 219);
+}
+
+.blogText {
+  font-size: 20px;
+}
+
+.blogTextP {
+  margin: 18px 0;
+  color: #000000c2;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: #0e000e;
+  color: #f6f6f6;
+  border-top: 5px solid rgb(0, 225, 255);
+  font-family: "Roboto", sans-serif;
+  height: 280px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerLogoParent {
+  color: #868686;
+  margin-bottom: 30px;
+}
+
+.footerBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerH3Tag {
+  font-weight: 300;
+}
+
+.fb:hover {
+  color: rgb(0, 225, 255);
+  transition: all 0.38s ease;
+}
+
+.footerATag {
+  color: #868686;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footerATag:hover {
+  color: rgb(0, 225, 255);
+  transition: all 0.38s ease;
+}
+
+.footerPTag {
+  color: #868686;
+  cursor: pointer;
+}
+
+.footerPTag:hover {
+  color: rgb(0, 225, 255);
+  transition: all 0.38s ease;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: #cecece;
+  background-color: #0e000e;
+}
