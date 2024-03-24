@@ -26,6 +26,7 @@
 
 .aboutH1Tag {
   margin-top: 9px;
+  user-select: none;
 }
 
 .aboutH1Tag2 {
