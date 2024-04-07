@@ -149,6 +149,7 @@ html {
     display: initial;
     cursor: pointer;
   }
+
   .ulTag {
     position: absolute;
     top: 100%;
@@ -163,12 +164,14 @@ html {
     clip-path: circle(0% at 0% 0%);
     transition: 0.28s;
   }
+
   .naverText {
     width: 200px;
     display: block;
     text-align: center;
     padding: 20px 420px;
   }
+
   .ulTag {
     width: 100%;
     display: flex;
@@ -176,6 +179,7 @@ html {
     align-items: center;
     justify-content: space-between;
   }
+
   .naverText:hover,
   .naverText1 {
     border-bottom: none;
@@ -183,6 +187,7 @@ html {
     color: #ffffff;
     transition: all 0.28s ease;
   }
+
   .activeA {
     clip-path: circle(144% at 0% 0%);
   }
